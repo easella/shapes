@@ -1,0 +1,25 @@
+.control-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+#seeds {
+  display: flex;
+  gap: 5px;
+}
+
+#seed {
+  width: 300px
+}
+
+#seeds > .seed:nth-child(1) {
+  font-weight: bold;
+}
+
+#seeds > .seed:nth-child(2) {
+  color: grey;
+}
+
+#seeds > .seed:nth-child(3) {
+  color: #d6d6d6;
+}
